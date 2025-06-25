@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9ADADFE2C984585004EFBF5 /* KunstmuseumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADADFD2C984585004EFBF5 /* KunstmuseumApp.swift */; };
+		A9ADAE022C984587004EFBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9ADAE012C984587004EFBF5 /* Assets.xcassets */; };
+		A9ADAE052C984587004EFBF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9ADAE042C984587004EFBF5 /* Preview Assets.xcassets */; };
+		A9ADAE0F2C984C64004EFBF5 /* ArtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADAE0E2C984C64004EFBF5 /* ArtViewModel.swift */; };
+		A9ADAE112C984D30004EFBF5 /* ArtObjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADAE102C984D30004EFBF5 /* ArtObjectResponse.swift */; };
+		A9ADAE132C984D5B004EFBF5 /* ArtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADAE122C984D5B004EFBF5 /* ArtObject.swift */; };
+		A9ADAE152C984E90004EFBF5 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADAE142C984E90004EFBF5 /* HTTPError.swift */; };
+		A9ADAE1B2C985051004EFBF5 /* ArtListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADAE1A2C985051004EFBF5 /* ArtListView.swift */; };
+		A9ADAE1D2C9870CA004EFBF5 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADAE1C2C9870CA004EFBF5 /* NavigationView.swift */; };
+		A9E42D592C99983200545567 /* ArtDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42D582C99983200545567 /* ArtDetailView.swift */; };
+		A9E42D5D2C99AAC000545567 /* DetailModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42D5C2C99AAAA00545567 /* DetailModifier.swift */; };
+		A9E42D5F2C99AB7900545567 /* DetailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42D5E2C99AB6900545567 /* DetailExtension.swift */; };
+		A9E42D612C99B6BF00545567 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42D602C99B6BF00545567 /* FavoritesView.swift */; };
+		A9E42D652C9AC56A00545567 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42D642C9AC56000545567 /* Tickets.swift */; };
+		A9E42DA32C9C530F00545567 /* Souvenir.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42DA22C9C530F00545567 /* Souvenir.swift */; };
+		A9E42DA52C9C535900545567 /* SouvenirViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42DA42C9C535900545567 /* SouvenirViewModel.swift */; };
+		A9E42DA72C9C540300545567 /* SovenirShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42DA62C9C540300545567 /* SovenirShopView.swift */; };
+		A9E42DAB2C9DB80A00545567 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42DAA2C9DB80A00545567 /* CartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9ADADFA2C984585004EFBF5 /* Kunstmuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kunstmuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ADADFD2C984585004EFBF5 /* KunstmuseumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KunstmuseumApp.swift; sourceTree = "<group>"; };
+		A9ADAE012C984587004EFBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9ADAE042C984587004EFBF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9ADAE0E2C984C64004EFBF5 /* ArtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewModel.swift; sourceTree = "<group>"; };
+		A9ADAE102C984D30004EFBF5 /* ArtObjectResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectResponse.swift; sourceTree = "<group>"; };
+		A9ADAE122C984D5B004EFBF5 /* ArtObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObject.swift; sourceTree = "<group>"; };
+		A9ADAE142C984E90004EFBF5 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		A9ADAE1A2C985051004EFBF5 /* ArtListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtListView.swift; sourceTree = "<group>"; };
+		A9ADAE1C2C9870CA004EFBF5 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		A9E42D582C99983200545567 /* ArtDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDetailView.swift; sourceTree = "<group>"; };
+		A9E42D5C2C99AAAA00545567 /* DetailModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModifier.swift; sourceTree = "<group>"; };
+		A9E42D5E2C99AB6900545567 /* DetailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailExtension.swift; sourceTree = "<group>"; };
+		A9E42D602C99B6BF00545567 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		A9E42D642C9AC56000545567 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		A9E42DA22C9C530F00545567 /* Souvenir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Souvenir.swift; sourceTree = "<group>"; };
+		A9E42DA42C9C535900545567 /* SouvenirViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouvenirViewModel.swift; sourceTree = "<group>"; };
+		A9E42DA62C9C540300545567 /* SovenirShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SovenirShopView.swift; sourceTree = "<group>"; };
+		A9E42DAA2C9DB80A00545567 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9ADADF72C984585004EFBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9ADADF12C984585004EFBF5 = {
+			isa = PBXGroup;
+			children = (
+				A9ADADFC2C984585004EFBF5 /* Kunstmuseum */,
+				A9ADADFB2C984585004EFBF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9ADADFB2C984585004EFBF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADADFA2C984585004EFBF5 /* Kunstmuseum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9ADADFC2C984585004EFBF5 /* Kunstmuseum */ = {
+			isa = PBXGroup;
+			children = (
+				A9E42D642C9AC56000545567 /* Tickets.swift */,
+				A9E42D5B2C99AA9E00545567 /* Modifier */,
+				A9E42D5A2C99AA8C00545567 /* Extensions */,
+				A9ADAE0D2C984608004EFBF5 /* ViewModels */,
+				A9ADAE0C2C9845FD004EFBF5 /* Models */,
+				A9ADAE0B2C9845F3004EFBF5 /* Views */,
+				A9ADADFD2C984585004EFBF5 /* KunstmuseumApp.swift */,
+				A9ADAE012C984587004EFBF5 /* Assets.xcassets */,
+				A9ADAE032C984587004EFBF5 /* Preview Content */,
+			);
+			path = Kunstmuseum;
+			sourceTree = "<group>";
+		};
+		A9ADAE032C984587004EFBF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADAE042C984587004EFBF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9ADAE0B2C9845F3004EFBF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADAE1C2C9870CA004EFBF5 /* NavigationView.swift */,
+				A9ADAE1A2C985051004EFBF5 /* ArtListView.swift */,
+				A9E42D582C99983200545567 /* ArtDetailView.swift */,
+				A9E42D602C99B6BF00545567 /* FavoritesView.swift */,
+				A9E42DA62C9C540300545567 /* SovenirShopView.swift */,
+				A9E42DAA2C9DB80A00545567 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9ADAE0C2C9845FD004EFBF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADAE102C984D30004EFBF5 /* ArtObjectResponse.swift */,
+				A9ADAE122C984D5B004EFBF5 /* ArtObject.swift */,
+				A9E42DA22C9C530F00545567 /* Souvenir.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9ADAE0D2C984608004EFBF5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADAE0E2C984C64004EFBF5 /* ArtViewModel.swift */,
+				A9E42DA42C9C535900545567 /* SouvenirViewModel.swift */,
+				A9ADAE162C984F5F004EFBF5 /* Enums */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A9ADAE162C984F5F004EFBF5 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADAE142C984E90004EFBF5 /* HTTPError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		A9E42D5A2C99AA8C00545567 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9E42D5E2C99AB6900545567 /* DetailExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9E42D5B2C99AA9E00545567 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				A9E42D5C2C99AAAA00545567 /* DetailModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9ADADF92C984585004EFBF5 /* Kunstmuseum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ADAE082C984587004EFBF5 /* Build configuration list for PBXNativeTarget "Kunstmuseum" */;
+			buildPhases = (
+				A9ADADF62C984585004EFBF5 /* Sources */,
+				A9ADADF72C984585004EFBF5 /* Frameworks */,
+				A9ADADF82C984585004EFBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kunstmuseum;
+			productName = Kunstmuseum;
+			productReference = A9ADADFA2C984585004EFBF5 /* Kunstmuseum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9ADADF22C984585004EFBF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A9ADADF92C984585004EFBF5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A9ADADF52C984585004EFBF5 /* Build configuration list for PBXProject "Kunstmuseum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9ADADF12C984585004EFBF5;
+			productRefGroup = A9ADADFB2C984585004EFBF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9ADADF92C984585004EFBF5 /* Kunstmuseum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9ADADF82C984585004EFBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADAE052C984587004EFBF5 /* Preview Assets.xcassets in Resources */,
+				A9ADAE022C984587004EFBF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9ADADF62C984585004EFBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADAE1B2C985051004EFBF5 /* ArtListView.swift in Sources */,
+				A9E42D652C9AC56A00545567 /* Tickets.swift in Sources */,
+				A9E42DA52C9C535900545567 /* SouvenirViewModel.swift in Sources */,
+				A9ADAE132C984D5B004EFBF5 /* ArtObject.swift in Sources */,
+				A9ADAE1D2C9870CA004EFBF5 /* NavigationView.swift in Sources */,
+				A9E42DA32C9C530F00545567 /* Souvenir.swift in Sources */,
+				A9E42D5F2C99AB7900545567 /* DetailExtension.swift in Sources */,
+				A9ADAE112C984D30004EFBF5 /* ArtObjectResponse.swift in Sources */,
+				A9E42D592C99983200545567 /* ArtDetailView.swift in Sources */,
+				A9ADAE0F2C984C64004EFBF5 /* ArtViewModel.swift in Sources */,
+				A9E42DA72C9C540300545567 /* SovenirShopView.swift in Sources */,
+				A9E42D612C99B6BF00545567 /* FavoritesView.swift in Sources */,
+				A9E42D5D2C99AAC000545567 /* DetailModifier.swift in Sources */,
+				A9ADAE152C984E90004EFBF5 /* HTTPError.swift in Sources */,
+				A9E42DAB2C9DB80A00545567 /* CartView.swift in Sources */,
+				A9ADADFE2C984585004EFBF5 /* KunstmuseumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9ADAE062C984587004EFBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9ADAE072C984587004EFBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9ADAE092C984587004EFBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kunstmuseum/Preview Content\"";
+				DEVELOPMENT_TEAM = SLBKFGMD28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.carstenjahn.Kunstmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9ADAE0A2C984587004EFBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kunstmuseum/Preview Content\"";
+				DEVELOPMENT_TEAM = SLBKFGMD28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.carstenjahn.Kunstmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9ADADF52C984585004EFBF5 /* Build configuration list for PBXProject "Kunstmuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADAE062C984587004EFBF5 /* Debug */,
+				A9ADAE072C984587004EFBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ADAE082C984587004EFBF5 /* Build configuration list for PBXNativeTarget "Kunstmuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADAE092C984587004EFBF5 /* Debug */,
+				A9ADAE0A2C984587004EFBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9ADADF22C984585004EFBF5 /* Project object */;
+}
